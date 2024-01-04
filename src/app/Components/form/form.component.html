@@ -1,1 +1,16 @@
-<p>form works!</p>
+<div class="container">
+    <form [formGroup]="SignForm">
+        <input type="text" formControlName = "name" placeholder="Your Name">
+        <input type="text" formControlName = "surname" placeholder="Your surname">
+        <input type="email" formControlName = "email" placeholder="Your Email Adress">
+        <input type="password" placeholder="Type your password">
+        <input type="password" formControlName = "password" placeholder="Repeat your password">
+        <div class="birth">
+            <label>Birth: </label>
+            <input type="date" formControlName = "birth" >
+        </div>
+        <button (click)="Submit()">Sign In</button>
+    </form>
+
+    <!-- {{SignForm.value.name}} -->
+</div>

@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, rgb(184, 57, 57), rgb(0, 0, 141));
+    background: linear-gradient(45deg, var(--primary), var(--primary-010));
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
